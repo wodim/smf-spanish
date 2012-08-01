@@ -1,50 +1,50 @@
 <?php
 // Version: 2.0; ManageMail
 
-$txt['mailqueue_desc'] = 'From this page you can configure your mail settings, as well as viewing and administrating the current mail queue if it is enabled.';
+$txt['mailqueue_desc'] = 'En esta página puedes configurar tus ajustes de correo y ver y administrar la cola de correo si está activa.';
 
-$txt['mail_type'] = 'Mail type';
-$txt['mail_type_default'] = '(PHP default)';
-$txt['smtp_host'] = 'SMTP server';
-$txt['smtp_port'] = 'SMTP port';
-$txt['smtp_username'] = 'SMTP username';
-$txt['smtp_password'] = 'SMTP password';
+$txt['mail_type'] = 'Tipo de correo';
+$txt['mail_type_default'] = '(por defecto de PHP)';
+$txt['smtp_host'] = 'Servidor SMTP';
+$txt['smtp_port'] = 'Puerto SMTP';
+$txt['smtp_username'] = 'Usuario SMTP';
+$txt['smtp_password'] = 'Clave SMTP';
 
-$txt['mail_queue'] = 'Enable Mail Queue';
-$txt['mail_limit'] = 'Maximum emails to send per minute';
-$txt['mail_limit_desc'] = '(Set to 0 to disable)';
-$txt['mail_quantity'] = 'Maximum amount of emails to send per page load';
+$txt['mail_queue'] = 'Activar cola de correo';
+$txt['mail_limit'] = 'Máximo de correos a enviar por minuto';
+$txt['mail_limit_desc'] = '(Poner a 0 para desactivar)';
+$txt['mail_quantity'] = 'Máximo de correos a enviar por cada página cargada';
 
-$txt['mailqueue_stats'] = 'Mail Queue Statistics';
-$txt['mailqueue_oldest'] = 'Oldest Mail';
-$txt['mailqueue_oldest_not_available'] = 'N/A';
-$txt['mailqueue_size'] = 'Queue Length';
+$txt['mailqueue_stats'] = 'Estadísticas de la cola de correo';
+$txt['mailqueue_oldest'] = 'Correo más antiguo';
+$txt['mailqueue_oldest_not_available'] = 'N/D';
+$txt['mailqueue_size'] = 'Longitud de la cola';
 
-$txt['mailqueue_age'] = 'Age';
-$txt['mailqueue_priority'] = 'Priority';
-$txt['mailqueue_recipient'] = 'Recipient';
-$txt['mailqueue_subject'] = 'Subject';
-$txt['mailqueue_clear_list'] = 'Send Mail Queue Now';
-$txt['mailqueue_no_items'] = 'The mail queue is currently empty';
+$txt['mailqueue_age'] = 'Tiempo';
+$txt['mailqueue_priority'] = 'Prioridad';
+$txt['mailqueue_recipient'] = 'Receptor';
+$txt['mailqueue_subject'] = 'Asunto';
+$txt['mailqueue_clear_list'] = 'Enviar correo en la cola ya';
+$txt['mailqueue_no_items'] = 'La cola de correo está vacía';
 // Do not use numeric entities in below string.
-$txt['mailqueue_clear_list_warning'] = 'Are you sure you wish to send the whole mail queue now? This will override any limits you have set.';
+$txt['mailqueue_clear_list_warning'] = '¿Estás seguro de querer enviar toda la cola de correo ya? El correo se enviará inmediatamente sin respetar los límites que hayas establecido.';
 
-$txt['mq_day'] = '%1.1f Day';
-$txt['mq_days'] = '%1.1f Days';
-$txt['mq_hour'] = '%1.1f Hour';
-$txt['mq_hours'] = '%1.1f Hours';
-$txt['mq_minute'] = '%1$d Minute';
-$txt['mq_minutes'] = '%1$d Minutes';
-$txt['mq_second'] = '%1$d Second';
-$txt['mq_seconds'] = '%1$d Seconds';
+$txt['mq_day'] = '%1.1f día';
+$txt['mq_days'] = '%1.1f días';
+$txt['mq_hour'] = '%1.1f hora';
+$txt['mq_hours'] = '%1.1f horas';
+$txt['mq_minute'] = '%1$d minuto';
+$txt['mq_minutes'] = '%1$d minutos';
+$txt['mq_second'] = '%1$d segundo';
+$txt['mq_seconds'] = '%1$d segundos';
 
-$txt['mq_mpriority_5'] = 'Very Low';
-$txt['mq_mpriority_4'] = 'Low';
+$txt['mq_mpriority_5'] = 'Muy baja';
+$txt['mq_mpriority_4'] = 'Baja';
 $txt['mq_mpriority_3'] = 'Normal';
-$txt['mq_mpriority_2'] = 'High';
-$txt['mq_mpriority_1'] = 'Very High';
+$txt['mq_mpriority_2'] = 'Alta';
+$txt['mq_mpriority_1'] = 'Muy alta';
 
-$txt['birthday_email'] = 'Birthday Message to use';
-$txt['birthday_body'] = 'Email Body';
-$txt['birthday_subject'] = 'Email Subject';
+$txt['birthday_email'] = 'Mensaje de cumpleaños';
+$txt['birthday_body'] = 'Texto del correo';
+$txt['birthday_subject'] = 'Asunto del correo';
 ?>

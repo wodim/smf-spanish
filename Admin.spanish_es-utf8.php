@@ -51,7 +51,7 @@ $txt['admin_main_welcome'] = 'Este es tu &quot;%1$s&quot;. Aquí podrás editar 
 $txt['admin_news_desc'] = 'Pon una noticia en cada apartado. Las etiquetas BBC <span title="Negrita">[b]</span>, <span title="Cursiva">[i]</span> y <span title="Subrayado">[u]</span> y muchas más se permiten, al igual que los emoticonos. Vacía un apartado para eliminarlo.';
 $txt['administrators'] = 'Administradores del foro';
 $txt['admin_reserved_desc'] = 'Con los nombres reservados puedes evitar que los usuarios se registren usando cualquier nombre que desees evitar. Revisa las opciones que quieras usar en la parte de abajo antes de hacer el cambio.';
-$txt['admin_activation_email'] = 'Enviar correo de activación a los nuevos miembros al registrarse';
+$txt['admin_activation_email'] = 'Enviar correo de activación a los nuevos usuarios al registrarse';
 $txt['admin_match_whole'] = 'Solo el nombre completo. Si no lo marcas, se buscará dentro del nombre.';
 $txt['admin_match_case'] = 'Respetar mayúsculas y minúsculas';
 $txt['admin_check_user'] = 'Comprobar nombre.';
@@ -100,7 +100,7 @@ $txt['attachmentdir_size_not_set'] = 'No hay tamaño máximo actualmente configu
 $txt['attachment_delete_admin'] = '[archivo adjunto eliminado por el administrador]';
 $txt['live'] = 'En directo desde Simple Machines...';
 $txt['remove_all'] = 'Eliminar todos';
-$txt['approve_new_members'] = 'El administrador ha de aceptar a todos los miembros';
+$txt['approve_new_members'] = 'El administrador ha de aceptar a todos los usuarios';
 $txt['agreement_not_writable'] = 'Atención - no se puede escribir en el archivo agreement.txt, los cambios que hagas NO se guardarán.';
 
 $txt['version_check_desc'] = 'Con esto puedes ver las versiones de los archivos de tu instalación contra los de la última versión. Si alguno de estos archivos está desactualizado, deberías descargar y actualizar la última versión de <a href="http://www.simplemachines.org/" target="_blank" class="new_win">www.simplemachines.org</a>.';
@@ -117,7 +117,7 @@ $txt['package_info'] = 'Instala nuevas funcionalidades o modifica las ya existen
 $txt['theme_admin'] = 'Temas y configuración';
 $txt['theme_admin_info'] = 'Instala y administra los temas y configura o reinicia las opciones del tema.';
 $txt['registration_center'] = 'Registros';
-$txt['member_center_info'] = 'Mira la lista de usuarios, búscalos y administra los miembros que aún no han sido aprobados y aquellos que aún no han activado su cuenta.';
+$txt['member_center_info'] = 'Mira la lista de usuarios, búscalos y administra los usuarios que aún no han sido aprobados y aquellos que aún no han activado su cuenta.';
 
 $txt['viewmembers_name'] = 'Nombre (nombre a mostrar)';
 $txt['viewmembers_online'] = 'Última vez conectado';
@@ -136,7 +136,7 @@ $txt['security_wrong'] = '¡Intento de acceso a la administración!' . "\n" . 'P
 $txt['email_as_html'] = 'Enviar en formato HTML. (Con esto puedes poner HTML normal en el correo).';
 $txt['email_parsed_html'] = 'Añadir &lt;br /&gt;s y &amp;nbsp;s a este mensaje.';
 $txt['email_variables'] = 'En este mensaje puedes usar diversas &quot;variables&quot;. Pincha <a href="' . $scripturl . '?action=helpadmin;help=emailmembers" onclick="return reqWin(this.href);" class="help">aquí</a> para obtener más información.';
-$txt['email_force'] = 'Enviar esto a los miembros aun habiendo elegido no recibir avisos.';
+$txt['email_force'] = 'Enviar esto a los usuarios, incluso a los que han elegido no recibir avisos.';
 $txt['email_as_pms'] = 'Enviar esto usando mensajes privados.';
 $txt['email_continue'] = 'Continuar';
 $txt['email_done'] = 'hecho.';

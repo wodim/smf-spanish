@@ -3,36 +3,36 @@
 
 global $context;
 
-$txt['groups'] = 'Groups';
-$txt['viewing_groups'] = 'Viewing Membergroups';
+$txt['groups'] = 'Grupos';
+$txt['viewing_groups'] = 'Viendo los grupos de usuarios';
 
-$txt['membergroups_title'] = 'Manage Membergroups';
-$txt['membergroups_description'] = 'Membergroups are groups of members that have similar permission settings, appearance, or access rights. Some membergroups are based on the amount of posts a user has made. You can assign someone to a membergroup by selecting their profile and changing their account settings.';
-$txt['membergroups_modify'] = 'Modify';
+$txt['membergroups_title'] = 'Administrar grupos de usuarios';
+$txt['membergroups_description'] = 'Los grupos de usuarios sirven para administrar varios usuarios que tienen permisos, opciones de apariencia o derechos de acceso similares. Algunos grupos de usuarios se basan en la cantidad de mensajes que el usuario ha hecho. Puedes asignar un usuario a un grupo de usuarios seleccionando su perfil y cambiando su configuración de cuenta.';
+$txt['membergroups_modify'] = 'Modificar';
 
-$txt['membergroups_add_group'] = 'Add group';
-$txt['membergroups_regular'] = 'Regular groups';
-$txt['membergroups_post'] = 'Post count based groups';
+$txt['membergroups_add_group'] = 'Añadir grupo';
+$txt['membergroups_regular'] = 'Grupos estándar';
+$txt['membergroups_post'] = 'Grupos basados en el número de mensajes';
 
-$txt['membergroups_group_name'] = 'Membergroup name';
-$txt['membergroups_new_board'] = 'Visible Boards';
-$txt['membergroups_new_board_desc'] = 'Boards the membergroup can see';
-$txt['membergroups_new_board_post_groups'] = '<em>Note: normally, post groups don\'t need access because the group the member is in will give them access.</em>';
-$txt['membergroups_new_as_inherit'] = 'inherit from';
-$txt['membergroups_new_as_type'] = 'by type';
-$txt['membergroups_new_as_copy'] = 'based off of';
-$txt['membergroups_new_copy_none'] = '(none)';
-$txt['membergroups_can_edit_later'] = 'You can edit them later.';
+$txt['membergroups_group_name'] = 'Nombre del grupo de usuarios';
+$txt['membergroups_new_board'] = 'Subforos visibles';
+$txt['membergroups_new_board_desc'] = 'Subforos que el grupo de usuarios puede ver';
+$txt['membergroups_new_board_post_groups'] = '<em>Nota: normalmente, los grupos basados en el número de mensajes no necesitan derechos de acceso aparte porque el grupo estándar al que el usuario ya pertenece les da acceso.</em>';
+$txt['membergroups_new_as_inherit'] = 'copiar de';
+$txt['membergroups_new_as_type'] = 'por tipo';
+$txt['membergroups_new_as_copy'] = 'basado en';
+$txt['membergroups_new_copy_none'] = '(ninguno)';
+$txt['membergroups_can_edit_later'] = 'Puedes editarlo luego.';
 
-$txt['membergroups_edit_group'] = 'Edit Membergroup';
-$txt['membergroups_edit_name'] = 'Group name';
-$txt['membergroups_edit_inherit_permissions'] = 'Inherit Permissions';
-$txt['membergroups_edit_inherit_permissions_desc'] = 'Select &quot;No&quot; to enable group to have own permission set.';
-$txt['membergroups_edit_inherit_permissions_no'] = 'No - Use Unique Permissions';
-$txt['membergroups_edit_inherit_permissions_from'] = 'Inherit From';
-$txt['membergroups_edit_hidden'] = 'Visibility';
+$txt['membergroups_edit_group'] = 'Editar grupo de usuarios';
+$txt['membergroups_edit_name'] = 'Nombre del grupo';
+$txt['membergroups_edit_inherit_permissions'] = 'Heredar permisos';
+$txt['membergroups_edit_inherit_permissions_desc'] = 'Selecciona «No» para permitir que el grupo tenga su propia configuración de acceso.';
+$txt['membergroups_edit_inherit_permissions_no'] = 'No - Usar permisos propios';
+$txt['membergroups_edit_inherit_permissions_from'] = 'Copiar de';
+$txt['membergroups_edit_hidden'] = 'Visibilidad';
 $txt['membergroups_edit_hidden_no'] = 'Visible';
-$txt['membergroups_edit_hidden_boardindex'] = 'Visible - Except in Group Key';
+$txt['membergroups_edit_hidden_boardindex'] = 'Visible - Excepto en el grupo'; //?
 $txt['membergroups_edit_hidden_all'] = 'Invisible';
 // Do not use numeric entities in the below string.
 $txt['membergroups_edit_hidden_warning'] = 'Are you sure you want to disallow assignment of this group as a users primary group?\\n\\nDoing so will restrict assignment to additional groups only, and will update all current &quot;primary&quot; members to have it as an additional group only.';

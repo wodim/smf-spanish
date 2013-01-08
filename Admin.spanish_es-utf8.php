@@ -56,7 +56,7 @@ $txt['admin_match_whole'] = 'Solo el nombre completo. Si no lo marcas, se buscar
 $txt['admin_match_case'] = 'Respetar mayúsculas y minúsculas';
 $txt['admin_check_user'] = 'Comprobar nombre.';
 $txt['admin_check_display'] = 'Comprobar nombre a mostrar.';
-$txt['admin_newsletter_send'] = 'Puedes enviar correos a cualquier usuario desde esta página. Las direcciones de correo de los grupos de usuarios seleccionados deberían aparecer debajo, pero puedes eliminar o añadir las direcciones que quieras. Asegúrate de que las direcciones estén separadas usando puntos y comas: \'dirección1;dirección2\'.';
+$txt['admin_newsletter_send'] = 'Puedes enviar correos a cualquier usuario desde esta página. Las direcciones de correo de los grupos de usuarios seleccionados deberían aparecer debajo, pero puedes eliminar o añadir las direcciones que quieras. Asegúrate de que las direcciones estén separadas usando puntos y comas: «dirección1;dirección2».';
 $txt['admin_fader_delay'] = 'Tiempo entre cada noticia';
 $txt['admin_bbc'] = 'Mostrar los botones de formato BBC en las páginas de nuevo mensaje';
 
@@ -219,7 +219,7 @@ $txt['maintain_sub_database'] = 'Base de datos';
 $txt['maintain_sub_routine'] = 'Rutinario';
 $txt['maintain_sub_members'] = 'Usuarios';
 $txt['maintain_sub_topics'] = 'Temas';
-$txt['maintain_done'] = 'La tarea de mantenimiento \'%1$s\' se ejecutó con éxito.';
+$txt['maintain_done'] = 'La tarea de mantenimiento «%1$s» se ejecutó con éxito.';
 $txt['maintain_no_errors'] = 'No se han encontrado errores.';
 
 $txt['maintain_tasks'] = 'Tareas programadas';
